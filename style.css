@@ -1,0 +1,53 @@
+body {
+    background-color: #252728;
+    color: white;
+}
+
+.navbar {
+    background-color: #252728;
+}
+
+.logo-byd {
+    height: 50px;
+}
+
+.nav .nav-link {
+    color: #ddd;
+}
+
+.nav .nav-link.active{
+    background-color: #ddd;
+    color: #252728;
+}
+
+.navbar-toggler {
+    background-color: #ddd;
+    margin-left: 15px;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.col-md-3 h5 {
+    color: rgb(180, 180, 180);
+}
+
+.col-md-3 button {
+    color: rgb(180, 180, 180);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links i {
+    color: white;
+}

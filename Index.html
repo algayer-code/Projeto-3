@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYD</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <a href="#">
+                <img src="./Imagens/logo.gif" class="logo-byd" alt="Logo BYD">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </a>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#futuro" class="nav-link active">
+                            <i class="bi bi-rocket-takeoff-fill me-1"></i>
+                            Futuro
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#tecnologia" class="nav-link">
+                            <i class="bi bi-battery-full me-1"></i>
+                            Tecnologia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#modelos" class="nav-link">
+                            <i class="bi bi-ev-front-fill me-1"></i>
+                            Modelos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text-fill me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" sata-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <!-- Futuro -->
+        <section id="futuro">
+            <!-- Carousel - botões/baixo -->
+            <div id="carousel-img" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carousel-img" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <!-- carousel - imagens -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD KING</h1>
+                        <p>Um sedã luxuoso, combinando conforto e alta tecnologia, ideal para quem busca inovação.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD YUAN PRO</h1>
+                        <p>SUV compacto com design arrojado e performance sólida, perfeito para o dia a dia.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD SHARK</h1>
+                        <p>Esportivo e moderno, destacando-se pela agressividade e estilo arrojado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD DOLPHIN PLUS</h1>
+                        <p>Elétrico urbano, eficiente e estiloso, excelente para ambientes urbanos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD SEAL</h1>
+                        <p>Sedã refinado com conforto superior e tecnologia avançada.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD SONG PLUS</h1>
+                        <p>SUV espaçoso e versátil, proporcionando conforto e potência em um design sofisticado.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./Imagens/Slides/s7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>BYD TAN EV</h1>
+                        <p>SUV elétrico de alta performance, com autonomia impressionante e estilo robusto.</p>
+                    </div>
+                </div>
+            </div>
+                <!-- Carousel - botões/lateral -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-img" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel-img" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <video class=" d-block w-100" controls>
+                                <source src="./Imagens/BYD-video.mp4" type="video/mp4"> Seu navegador não suporta a tag de vídeo.
+                            </video>
+                            </div>
+                        <div class="col-md-5 mt-3 mt-md-0">
+                            <h2>Carregamento: Rápido e Conveniente</h2>
+                            <p>Opção de carregamento AC para uso doméstico, com capacidade de receber até 7 kWh (a depender do modelo do veículo), permitindo uma recarga descomplicada e prática para situações do dia-a-dia.</p>
+                            <p>Estamos mencionando uma solução prática para recarregar veículos elétricos. Isso significa que você pode carregar seu carro em casa, utilizando uma tomada comum, com uma eficiência considerável.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Tecnologia -->
+        <section class="pt-5 pb-5" id="tecnologia">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">TECNOLOGIA BYD DM</h2>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col-md-6">
+                        <img src="./Imagens/tecnologia/caregamento.jpg" class="d-block w-100" alt="Carregador de BYD">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>
+                            <i class="bi bi-battery-charging pe-2"></i>
+                            Como a BYD DM é diferente?
+                        </h3>
+                        <p>A Tecnologia BYD DM (Dual Mode) representa uma evolução revolucionária na tecnologia híbrida plug-in (PHEV) inteligente. Desenvolvida exclusivamente pela BYD, ela oferece uma multiplicidade de benefícios, incluindo eficiência energética, baixo consumo de combustível, desempenho de direção e conforto.</p>
+                        <p>A Tecnologia BYD DM difere de outras tecnologias PHEV. No centro da Tecnologia BYD DM está um sistema híbrido baseado em eletricidade. Esta arquitetura híbrida usa um motor elétrico de alta potência e uma bateria de grande capacidade como fonte de energia primária, utilizando o motor apenas como auxiliar. Este sistema inovador foca na eficiência, adaptando-se sem esforço a diferentes cenários de direção.</p>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col-md-6">
+                        <h3>
+                            <i class="bi bi-list-check pe-2"></i>
+                            Os benefícios da Tecnologia BYD DM incluem:
+                        </h3>
+                        <ul>
+                            <li>Funcionamento elétrico puro: Com a bateria totalmente carregada, o veículo opera como um elétrico puro, sem emissões.</li>
+                            <li>Economia de combustível: Quando o nível de carga da bateria (SOC) está baixo, o veículo se transforma em um híbrido de ultra baixo consumo de combustível.</li>
+                            <li>Prioridade elétrica: A tecnologia prioriza a energia elétrica, utilizando o motor a combustão apenas como auxílio, resultando em menor consumo de combustível.</li>
+                            <li>Amigável ao meio ambiente: Ao priorizar a eletricidade, a tecnologia contribui para a redução de emissões e impactos ambientais.</li>
+                            <li>Alta eficiência energética: O sistema híbrido otimizado proporciona maior eficiência energética, resultando em economia de combustível.</li>
+                            <li>Conforto e silêncio: A operação elétrica proporciona uma condução silenciosa e confortável.</li>
+                            <li>Alto desempenho: Mesmo no modo híbrido, a tecnologia oferece alta potência e agilidade na resposta do motor.</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./Imagens/tecnologia/tecnologia2.jpg" class="d-block w-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Modelos -->
+        <section class="pb-5" id="modelos">
+            <div class="container">
+                <div class="row pb-5">
+                    <h2 class="text-center">Modelos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-eletricos" class="fw-bold nav-link active">Veículos Elétricos</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-hibridos" class="fw-bold nav-link">Veículos Híbridos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content tab-modelos">
+                            <!-- carros eletricos -->
+                            <div class="tab-pane active" id="carros-eletricos">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-DOLPHIN.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD DOLPHIN</h5>
+                                        <p class="mt-auto">
+                                            Elétrico compacto
+                                            <br>
+                                            Design inovador
+                                            <br>
+                                            Autonomia de 330 km
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-DOLPHIN-MINI.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-auto">BYD DOLPHIN MINI</h5>
+                                        <p class="mt-auto">
+                                            Eficiente
+                                            <br>
+                                            Design urbano
+                                            <br>
+                                            Autonomia de 280 km
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-DOLPHIN-PLUS.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD DOLPHIN PLUS</h5>
+                                        <p class="mt-auto">
+                                            Maior autonomia
+                                            <br>
+                                            12,8" tela giratória
+                                            <br>
+                                            Design moderno
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-HAN.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD HAN</h5>
+                                        <p class="mt-auto">
+                                            Sedã luxuoso
+                                            <br>
+                                            Motor elétrico potente
+                                            <br>
+                                            Tecnologia avançada
+                                        </p>
+                                        <div class="mt-auto d-grid mb-3 gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-SEAL.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD SEAL</h5>
+                                        <p class="mt-auto">
+                                            Conforto superior
+                                            <br>
+                                            Tecnologia de ponta
+                                            <br>
+                                            Design elegante
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-TAN-EV.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD TAN EV</h5>
+                                        <p class="mt-auto">
+                                            SUV elétrico
+                                            <br>
+                                            Alta autonomia
+                                            <br>
+                                            Design robusto
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-YUAN-PLUS.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD YUAN PLUS</h5>
+                                        <p class="mt-auto">
+                                            Espaçoso
+                                            <br>
+                                            Eficiente
+                                            <br>
+                                            Design sofisticado
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Elétricos/BYD-YUAN-PRO.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD YUAN PRO</h5>
+                                        <p class="mt-auto">
+                                            Performance sólida
+                                            <br>
+                                            Design arrojado
+                                            <br>
+                                            Ideal para o dia a dia
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- carros hibridos -->
+                            <div class="tab-pane" id="carros-hibridos">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Híbridos/BYD-KING-DM-i.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD KING DM-i</h5>
+                                        <p class="mt-auto">
+                                            <strong>Autonomia:</strong> 1175 km (NEDC)
+                                            <br>
+                                            <strong>Motor híbrido:</strong> 1.5L + elétrico
+                                            <br>
+                                            <strong>Tecnologia DM-i:</strong> Eficiência energética
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Híbridos/BYD-SHARK.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD SHARK</h5>
+                                        <p class="mt-auto">
+                                            <strong>Design moderno:</strong> Frente geométrica
+                                            <br>
+                                            <strong>Espaço interno:</strong> Ampla capacidade de porta-malas
+                                            <br>
+                                            <strong>Conectividade:</strong> Sistema ICS 4.0
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Híbridos/BYD-KING-DM-i.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD SONG PLUS DM-i</h5>
+                                        <p class="mt-auto">
+                                            <strong>Eficiência:</strong> Baixo consumo de combustível
+                                            <br>
+                                            <strong>Autonomia:</strong> Modo elétrico até 80 km
+                                            <br>
+                                            <strong>Segurança:</strong> Frenagem inteligente
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column">
+                                        <img src="./Imagens/Carros/Híbridos/BYD-KING-DM-i.png" class="d-block w-100" alt="">
+                                        <h5 class="fw-bold mt-2">BYD SONG PRO DM-i</h5>
+                                        <p class="mt-auto">
+                                            <strong>Desempenho:</strong> 235 cv (motor híbrido)
+                                            <br>
+                                            <strong>Tecnologia:</strong> Carregamento por indução
+                                            <br>
+                                            <strong>Conforto:</strong> Assistentes de direção
+                                        </p>
+                                        <div class="mt-auto d-grid gap-2">
+                                            <button type="button" class="btn btn-outline-light">Saiba mais</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Fale conosco -->
+        <section class="pt-5 pb-5" id="fale-conosco">
+            <div class="container">
+                <div class="row mb-4">
+                    <h2 class="text-center">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form id="formulario">
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold">Seu nome</label>
+                                <input type="text" id="name" class="form-control" placeholder="Yasmin Daniele" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" placeholder="exemplo@text.com" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label fw-bold">Seu número (opcional)</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="(00) 00000-0000">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <div class="d-grid mt-3 gap-2">
+                                <button type="submit" class="btn btn-outline-light">Enviar</button>
+                            </div>
+                        </form>
+                        <div id="error-message" style="color: red; display: none;"></div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mt-1">
+                            <h3 class="fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste nº314, Bairro Aleatório - PVH - RO</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- copy -->
+        <section>
+            <div class="container">
+                <div>
+                    &copy;João Vitor Algayer Barbosa
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
